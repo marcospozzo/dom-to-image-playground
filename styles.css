@@ -7,10 +7,11 @@ body {
 }
 
 div {
-  width: 720px;
-  height: 720px;
+  width: 540px;
+  height: 540px;
   /* border: 1px solid black; */
-  background-color: #e9e5de;
+  /* bg-alt color */
+  background-color: #dfdbd4;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,9 +20,10 @@ div {
 
 img {
   border-radius: 50%;
-  width: 75%;
-  height: 75%;
+  width: 70%;
+  height: 70%;
   margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 h3,
