@@ -9,9 +9,14 @@ body {
 div {
   width: 540px;
   height: 540px;
-  /* border: 1px solid black; */
+
   /* bg-alt color */
-  background-color: #dfdbd4;
+  /* background-color: #dfdbd4; */
+
+  /* bg color */
+  background-color: #e9e5de;
+
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
