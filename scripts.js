@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $("#png").click(function () {
     domtoimage.toBlob(document.getElementById("div")).then(function (blob) {
-      window.saveAs(blob, $("h3").text() + ".png");
+      window.saveAs(blob, $("#name").text() + ".png");
     });
   });
   $("#jpg").click(function () {
@@ -9,7 +9,7 @@ $(document).ready(function () {
       .toJpeg(document.getElementById("div"), { quality: 0.95 })
       .then(function (dataUrl) {
         var link = document.createElement("a");
-        link.download = $("h3").text() + ".jpg";
+        link.download = $("#name").text() + ".jpg";
         link.href = dataUrl;
         link.click();
       });

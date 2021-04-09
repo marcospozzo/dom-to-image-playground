@@ -7,8 +7,8 @@ body {
 }
 
 div {
-  width: 540px;
-  height: 540px;
+  width: 720px;
+  height: 720px;
 
   /* bg-alt color */
   /* background-color: #dfdbd4; */
@@ -31,14 +31,14 @@ img {
   margin-top: 1em;
 }
 
-h3,
-h4 {
+h2,
+h3 {
   width: 100%;
   text-align: center;
   font-weight: bold;
 }
 
-h4 {
+h3 {
   color: #9fa3a6;
 }
 
